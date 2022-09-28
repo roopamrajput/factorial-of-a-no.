@@ -1,0 +1,32 @@
+# factorial-of-a-no.
+
+//factorial by oops concept:
+#include<iostream>
+using namespace std;
+class factorial
+{int a, i, fact;
+public:
+	void get();
+	void cal();
+	void show();
+	
+};
+
+void factorial::get()
+{ cin>>a;
+}
+void factorial::cal()
+{for(i=a;i<=a&&i!=0;i--)
+fact=fact*i;
+}
+void factorial::show()
+{cout<<"factorial of given no is="<<fact;
+}
+int main()
+{factorial q;
+cout<<"enter any integer no=";
+q.get();
+q.cal();
+q.show();
+return 0;
+}
